@@ -9,4 +9,3 @@ export default function SavedScreen() {
   )
 }
 
-const styles = StyleSheet.create({})

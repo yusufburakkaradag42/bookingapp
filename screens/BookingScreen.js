@@ -9,4 +9,3 @@ export default function BookingScreen() {
   )
 }
 
-const styles = StyleSheet.create({})
