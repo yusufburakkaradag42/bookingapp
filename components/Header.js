@@ -18,7 +18,7 @@ const Header = () => {
                 flexDirection: 'row',
                 alignItems: 'center',
                 borderColor: 'white',
-                borderWidth: 2,
+                borderWidth: 1,
                 borderRadius: 25,
                 padding: 8,
             }}>
@@ -34,9 +34,9 @@ const Header = () => {
             <Pressable style={{
                 flexDirection: 'row',
                 alignItems: 'center',
-            
+
             }}>
-               <Ionicons name="airplane-outline" size={24} color="white" />
+                <Ionicons name="airplane-outline" size={24} color="white" />
                 <Text style={{
                     marginLeft: 8,
                     fontWeight: 'bold',
@@ -49,9 +49,9 @@ const Header = () => {
             <Pressable style={{
                 flexDirection: 'row',
                 alignItems: 'center',
-              
+
             }}>
-               <AntDesign name="car" size={24} color="white" />
+                <AntDesign name="car" size={24} color="white" />
                 <Text style={{
                     marginLeft: 8,
                     fontWeight: 'bold',
@@ -64,9 +64,9 @@ const Header = () => {
             <Pressable style={{
                 flexDirection: 'row',
                 alignItems: 'center',
-           
+
             }}>
-               <FontAwesome5 name="taxi" size={24} color="white" />
+                <FontAwesome5 name="taxi" size={24} color="white" />
                 <Text style={{
                     marginLeft: 8,
                     fontWeight: 'bold',
